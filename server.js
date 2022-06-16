@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 const Document = require("./Document")
-var ur="mongodb+srv://user:user12@cluster0.whef4.mongodb.net/?retryWrites=true&w=majority"
+var ur="enter your mongoDB url here"
 // const port = process.env.PORT || 3000
 mongoose.connect(ur, {
   useNewUrlParser: true,
